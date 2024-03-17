@@ -1,0 +1,75 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  .device {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .device img {
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    display: block;
+    margin: 0 auto 10px;
+  }
+  
+  .device h3 {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  
+  .device label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .device input[type="checkbox"],
+  .device input[type="range"] {
+    width: 100%;
+  }
+  
+  /* Customizing input[type="range"] */
+  .device input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  .device input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #333;
+    cursor: pointer;
+  }
+  
